@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<h3>Tabela: produtos</h3>
+<table class="table table-bordered" style="width:30%; margin-bottom: 60px;">
+  <tr>
+    <th>Nome</th>
+    <th>Tipo</th> 
+  </tr>
+  <tr>
+    <td>id</td>
+    <td>INT PK A_I</td>
+  </tr>
+  <tr>
+    <td>nome</td>
+    <td>VARCHAR (200)</td>
+  </tr>
+  <tr>
+    <td>imagem</td>
+    <td>VARCHAR(200)</td>
+  </tr>
+
+   <tr>
+    <td>descricao</td>
+    <td>TEXT</td>
+  </tr>
+  <tr>
+    <td>valor</td>
+    <td>INT (15)</td>
+  </tr>
+   <tr>
+    <td>quantidade</td>
+    <td>INT (11)</td>
+  </tr>
+  <tr>
+    <td>id_categoria</td>
+    <td>INT FK </td>
+  </tr>
+
+</table>
+
+<h3>Tabela: categorias</h3>
+<table class="table table-bordered" style="width:30%; margin-bottom: 60px;">
+
+ <tr>
+    <th>Nome</th>
+    <th>Tipo</th> 
+  </tr>
+  <tr>
+    <td>id</td>
+    <td>INT PK A_I</td>
+  </tr>
+  <tr>
+    <td>nome</td>
+    <td>VARCHAR (200)</td>
+  </tr>
+  <tr>
+</table>
+
+<h3>Tabela: usuarios</h3>
+<table class="table table-bordered" style="width:30%; margin-bottom: 60px;">
+  <tr>
+    <th>Nome</th>
+    <th>Tipo</th> 
+  </tr>
+  <tr>
+    <td>id</td>
+    <td>INT PK A_I</td>
+  </tr>
+  <tr>
+    <td>login</td>
+    <td>VARCHAR (200)</td>
+  </tr>
+   <tr>
+    <td>senha</td>
+    <td>VARCHAR (200)</td>
+  </tr>
+
+</table>
+
+<h3>Tabela: clientes</h3>
+<table class="table table-bordered" style="width:30%; margin-bottom: 60px;">
+  <tr>
+    <th>Nome</th>
+    <th>Tipo</th> 
+  </tr>
+  <tr>
+    <td>id</td>
+    <td>INT PK A_I</td>
+  </tr>
+  <tr>
+    <td>nome</td>
+    <td>VARCHAR (200)</td>
+  </tr>
+   <tr>
+    <td>email</td>
+    <td>VARCHAR (200)</td>
+  </tr>
+  <tr>
+    <td>cpf</td>
+    <td>VARCHAR(15)</td>
+  </tr>
+  <tr>
+    <td>sexo</td>
+    <td>CHAR (1)</td>
+  </tr>
+   <tr>
+    <td>telefone</td>
+    <td>VARCHAR (11)</td>
+  </tr>
+
+</table>
+
+<h3>Tabela: faq</h3>
+<table class="table table-bordered" style="width:30%; margin-bottom: 60px;">
+  <tr>
+    <th>Nome</th>
+    <th>Tipo</th> 
+  </tr>
+  <tr>
+    <td>id</td>
+    <td>INT PK A_I</td>
+  </tr>
+  <tr>
+    <td>nome</td>
+    <td>VARCHAR (200)</td>
+  </tr>
+   <tr>
+    <td>conteudo</td>
+    <td>TEXT</td>
+  </tr>
+
+  <tr>
+    <td>data</td>
+    <td>date</td>
+  </tr>
+
+</table>
+
+<h3>Tabela: contato</h3>
+<table class="table table-bordered" style="width:30%; margin-bottom: 60px;">
+  <tr>
+    <th>Nome</th>
+    <th>Tipo</th> 
+  </tr>
+  <tr>
+    <td>id</td>
+    <td>INT PK A_I</td>
+  </tr>
+  <tr>
+    <td>nome</td>
+    <td>VARCHAR (200)</td>
+  </tr>
+   <tr>
+    <td>email</td>
+    <td>VARCHAR (200)</td>
+  </tr>
+
+  <tr>
+    <td>conteudo</td>
+    <td>TEXT</td>
+  </tr>
+
+</table>
+</div>
+
+
+</body>
+</html>

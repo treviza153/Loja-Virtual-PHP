@@ -1,0 +1,1132 @@
+@charset "utf-8";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*////////////////////////////////////////////////*/
+
+body
+{
+	
+	background-color: white;
+	
+} 
+
+
+div#backgroundtop{
+
+background-image: url(div_top.png);
+width: 1920px;
+height: 240px;
+
+}
+
+.logo{
+
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	margin-left: 855px;
+	margin-top: 20px;
+}
+
+.botaofundo
+{
+	
+	position:absolute;
+	background-color: #3b5998;
+	Font: 13px "verdana", cursive;
+	color: white;
+	border: 2px solid;
+	border-radius: 0 0 10px 10px;
+	padding: 5px 10px;
+	padding-top: 60px;
+	margin-top: -55px;
+	margin-left: 5px;
+	cursor:pointer;
+
+}
+
+.botaofundo1
+{
+	
+	margin-left: 135px;
+
+}
+
+
+
+.conta {
+
+	position:absolute;
+	background-color: #3b5998;
+	font: 13px "verdana", cursive;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	border: 2px solid;
+	border-radius: 0 0 10px 10px;
+	padding: 5px 10px;
+	padding-top: 60px;
+	margin-top: -55px;
+	margin-left: 1840px;
+	
+}
+
+.conta1 {
+
+	position:absolute;
+	background-color: #3b5998;
+	font: 13px "verdana", cursive;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	border: 2px solid;
+	border-radius: 0 0 10px 10px;
+	padding: 5px 10px;
+	padding-top: 60px;
+	margin-top: -55px;
+	margin-left: 1723px;
+	
+}
+.conta:hover {
+
+	-webkit-transform: translate(0%, 30%);
+	-ms-transform: translate(0%, 30%);
+	transform: translate(0%, 30%);	
+	
+	
+	-webkit-transition: -webkit-transform 500ms ease-in-out;
+	transition: transform 500ms ease-in-out;
+	
+}
+
+.conta1:hover {
+	
+	-webkit-transform: translate(0%, 30%);
+	-ms-transform: translate(0%, 30%);
+	transform: translate(0%, 30%);	
+	
+	
+	-webkit-transition: -webkit-transform 500ms ease-in-out;
+	transition: transform 500ms ease-in-out;
+	
+}
+
+.botaofundo:hover {
+	
+	-webkit-transform: translate(0%, 30%);
+	-ms-transform: translate(0%, 30%);
+	transform: translate(0%, 30%);	
+	
+	
+	-webkit-transition: -webkit-transform 500ms ease-in-out;
+	transition: transform 500ms ease-in-out;
+}
+
+
+.face
+{
+	
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	margin-top: 95px;
+	margin-left: 1685px;
+	cursor:pointer;
+	
+}
+
+.twitter
+{
+	
+	position: absolute;
+	width: 35px;
+	height: 30px;
+	margin-top: 105px;
+	margin-left: 1750px;
+	cursor:pointer;
+	
+}
+
+.insta
+{
+	
+	position: absolute;
+	width: 47px;
+	height: 47px;
+	margin-top: 98px;
+	margin-left: 1800px;
+	cursor:pointer;
+	
+}
+
+.pint
+{
+	
+	position: absolute;
+	width: 33px;
+	height: 33px;
+	margin-top: 105px;
+	margin-left: 1865px;
+	cursor:pointer;
+	
+}
+
+
+.menu{
+  position: absolute;
+  width: 50%;
+  margin-top: 190px;
+  
+}
+	
+
+.menu .menu-list, .menu .sub-menu{
+  list-style: none;
+  margin-top: -3.5px;
+}
+
+.menu a{
+  cursor:pointer;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  text-transform: uppercase;
+  font: 14px "verdana", cursive;
+}
+
+
+.menu > .menu-list > li{
+  float: left;
+  position: relative;
+}
+
+.menu > .menu-list > li > a { 
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+}
+
+.menu > .menu-list > li:hover > .sub-menu {
+  display: block;
+  background-color: #1a3369; 
+  border-radius: 0 0 5px 5px;
+  
+}
+
+.menu > .menu-list > li > .sub-menu {
+  position: absolute;
+  min-width: 200px;
+  z-index: 1000;
+  display: none;
+  border-radius: 0 0 5px 5px;
+
+}
+
+.menu > .menu-list > li > .sub-menu > li > a {
+	padding: 10px 20px;
+}
+
+.sub-menu-single:hover  {
+text-decoration: underline;
+}
+
+.time{
+display: inline-block;
+}
+
+.time2{
+margin-left: 150px;
+}
+
+.barra_pesquisa
+{
+margin-left: 1335px;
+margin-top: 185px;
+width: 430px;
+border: 2px solid #ccc;
+border-radius: 50px;
+font: 16px "verdana", cursive;
+background-color: white;
+background-image: url('searchicon.png'); 
+background-repeat: no-repeat;
+padding: 10px 20px 5px 50px; 
+
+}
+
+#carrinho
+{
+	
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	margin-left: 1860px;
+	margin-top: -32px;
+	cursor: pointer;
+	
+}
+
+p {
+
+margin-top: 0;	
+
+
+}
+
+
+
+
+.modal-container{
+	position: fixed;
+	background-color: #fff;
+	width: 70%;
+	max-width: 600px;
+	height: 270px;
+	left: 50%;
+	font: 20px "Verdana", cursive; 
+	padding: 20px;
+	border-radius: 5px;
+	z-index: 2;
+	
+	
+	-webkit-transform: translate(-50%, -200%);
+	-ms-transform: translate(-50%, -200%);
+	transform: translate(-50%, -200%);	
+	
+	
+	-webkit-transition: -webkit-transform 1000ms ease-in-out;
+	transition: transform 1000ms ease-in-out;
+	
+}
+
+.modal:target .modal-container {
+	
+	-webkit-transform: translate(-50%, 120%);
+	-ms-transform: translate(-50%, 120%);
+	transform: translate(-50%, 120%);	
+	
+}
+
+.opaco
+{
+
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+	z-index: 1;
+	
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1s;
+	animation-name: fade;
+	animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+
+
+
+#tituloLogin
+{
+
+	width: 580px;
+	padding: 10px;
+	background-color: #3b5998;
+	color: white;
+	font: 20px "Verdana", cursive;
+	text-align: center;
+	border-radius: 5px;
+
+
+}
+
+#formLogin
+{
+
+	position: absolute;
+	text-align: right;
+	margin-right: 100px;
+	padding-left: 120px;
+	padding-top: 25px;
+
+}
+
+#formLogin input.campo_e-mail
+  {
+    position:fixed;
+	font: 15px "Verdana", cursive;
+	left: 250px;
+    top: 90px;
+    width:300px;
+	border: 1px solid #696969;
+	border-radius: 5px;
+	height: 25px;
+	padding-top: 0px;
+  }
+
+  #formLogin input.campo_senha
+  {
+    position:fixed;
+	font: 15px "Verdana", cursive;
+	left: 250px;
+    top: 135px;
+    width: 150px;
+	border: 1px solid #696969;
+	border-radius: 5px;
+	height: 25px;
+	padding-top: 0px;
+  }
+  
+   #cancelar
+  {
+
+  	position: absolute;
+  	margin-top: 200px;
+	margin-left: 25px;
+  	padding: 8px;
+	width: 100px;
+  	font: 15px "Verdana", cursive;
+  	text-align: center;
+  	text-decoration: none;
+  	color: white;
+  	background-color: #ff0000;
+  	border: 1px solid #fff;
+  	border-radius: 5px; 
+
+  }
+
+#limpar
+{
+
+	position: absolute;
+  	margin-top: 79px;
+  	margin-left: 180px;
+	padding: 8px;
+	width:100px;
+	font: 15px "Verdana", cursive;
+  	color: white;
+  	background-color: #3b5998;
+  	border: 1px solid #fff;
+  	border-radius: 5px; 
+
+}
+
+#enviar
+{
+
+	position: absolute;
+  	margin-top: 79px;
+  	margin-left: 300px;
+	padding: 8px;
+	width:100px;
+	font: 15px "Verdana", cursive;
+  	color: white;
+  	background-color: #32CD32;
+  	border: 1px solid #fff;
+  	border-radius: 5px; 
+}
+
+#esqueciSenha
+{
+	
+	position: absolute;
+	margin-left: 300px;
+	margin-top: 150px;
+	font-size: 13px;
+	color: black;
+
+}
+
+#esqueciEmail
+{
+	
+	position: absolute;
+	margin-left: 450px;
+	margin-top: 150px;
+	font-size: 13px;
+	color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modal-container1{
+	position: fixed;
+	background-color: #fff;
+	width: 70%;
+	max-width: 600px;
+	height: 390px;
+	left: 50%;
+	padding: 20px;
+	border-radius: 5px;
+	z-index: 2;
+	
+	
+	-webkit-transform: translate(-50%, -200%);
+	-ms-transform: translate(-50%, -200%);
+	transform: translate(-50%, -200%);	
+	
+	
+	-webkit-transition: -webkit-transform 1000ms;
+	transition: transform 1000ms;
+	
+}
+
+
+.modal1:target .modal-container1 {
+	
+	-webkit-transform: translate(-50%, 60%);
+	-ms-transform: translate(-50%, 60%);
+	transform: translate(-50%, 60%);	
+	
+}
+
+.modal1
+{
+
+	font: 20px "Verdana", cursive;
+
+}
+
+#tituloCadastro1
+{
+
+	width: 580px;
+	padding: 10px;
+	background-color: #3b5998;
+	color: white;
+	font: 20px "Verdana", cursive;
+	text-align: center;
+	border-radius: 5px;
+
+
+}
+
+#formCadastro1
+{
+
+	position: absolute;
+	text-align: right;
+	margin-right: 400px;
+	padding-left: 15px;
+	padding-top: 25px;
+
+}
+
+#formCadastro1 input.campo_nome1
+  {
+    position: fixed;
+	font: 15px "Verdana", cursive;
+	left: 250px;
+    top: 91px;
+    width:350px;
+	border: 1px solid #696969;
+	border-radius: 5px;
+	height: 25px;
+	padding-top: 0px;
+  }
+
+#formCadastro1 input.campo_e-mail1
+  {
+    position:fixed;
+	font: 15px "Verdana", cursive;
+	left: 250px;
+    top: 137px;
+    width:300px;
+	border: 1px solid #696969;
+	border-radius: 5px;
+	height: 25px;
+	padding-top: 0px;
+  }
+
+#formCadastro1 input.campo_cpf1
+  {
+    position:fixed;
+	font: 15px "Verdana", cursive;
+	left: 250px;
+    top: 185px;
+    width:240px;
+	border: 1px solid #696969;
+	border-radius: 5px;
+	height: 25px;
+	padding-top: 0px;
+  }
+
+  #formCadastro1 input.campo_sexo1
+  {
+    position:fixed;
+	left: 240px;
+    top: 240px;
+	padding-top: 0px;
+  }
+
+  .Masculino
+  {
+
+  	position: absolute;
+  	margin-left: 250px;
+  	padding-top: 172px;
+
+  }
+
+#sexo1
+{
+
+	margin-left: 10px;
+
+}
+
+ #formCadastro1 input.campo_sexo2
+  {
+    position: fixed;
+	left: 400px;
+    top: 240px;
+	padding-top: 0px;
+  }
+
+  .Feminino
+  {
+
+  	position: absolute;
+  	margin-left: 410px;
+  	padding-top: 172px;
+
+  }
+
+#sexo2
+{
+
+	margin-left: 10px;
+
+}
+
+#formCadastro1 input.campo_senha1
+  {
+    position:fixed;
+	font: 15px "Verdana", cursive;
+	left: 250px;
+    top: 285px;
+    width: 150px;
+	border: 1px solid #696969;
+	border-radius: 5px;
+	height: 25px;
+	padding-top: 0px;
+  }
+
+#formCadastro1 input.campo_confsenha1
+  {
+    position:fixed;
+	font: 15px "Verdana", cursive;
+	left: 250px;
+    top: 330px;
+    width: 150px;
+	border: 1px solid #696969;
+	border-radius: 5px;
+	height: 25px;
+	padding-top: 0px;
+  }
+
+  #cancelar1
+  {
+
+  	position: absolute;
+  	margin-top: 320px;
+	margin-left: 25px;
+  	padding: 8px;
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+  	font: 15px "Verdana", cursive;
+  	color: white;
+  	background-color: #ff0000;
+  	border: 1px solid #fff;
+  	border-radius: 5px; 
+
+  }
+
+#limpar1
+{
+
+	position: absolute;
+  	margin-top: 7px;
+  	margin-left: 180px;
+	padding: 8px;
+	width:100px;
+	font: 15px "Verdana", cursive;
+  	color: white;
+  	background-color: #3b5998;
+  	border: 1px solid #fff;
+  	border-radius: 5px; 
+
+}
+
+#enviar1
+{
+
+	position: absolute;
+  	margin-top: 7px;
+  	margin-left: 300px;
+	padding: 8px;
+	width:100px;
+	font: 15px "Verdana", cursive;
+  	color: white;
+  	background-color: #32CD32;
+  	border: 1px solid #fff;
+  	border-radius: 5px; 
+}
+
+div#slider
+{
+
+	background-image: url(fundo_slider1.png);
+	width: 1920px;
+	height: 400px;
+	margin-top: 50px;
+	position: absolute;
+
+}
+
+
+
+
+
+.slider
+{
+	
+
+	
+}
+
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {	
+
+	max-width: 1400px;
+	height: 437.5px;
+	margin-left: 270px;
+	position: relative;
+	border: 2px solid black;
+	border-radius: 5px;  
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  font: 20px "verdana", cursive;
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.tituloProdutos
+{
+	
+	margin-top: 600px;
+	width: 1500px;
+	padding: 20px;
+	background-color: #3b5998;
+	margin-left: 190px;
+	margin-bottom: 50px;
+	font: 20px "verdana", cursive;
+	color: white;
+	text-align: center;
+	border-radius: 10px 10px 0 0;
+	border: 2px solid black;
+	text-decoration: bold;
+	
+	
+}
+
+.prod
+{
+	
+	width: 200px;
+	height: 200px;
+	padding: 0px 10px;
+	padding-left:150px;
+	text-align: center;
+	font: 17px "Verdana", cursive;
+	width: 200px;
+
+}
+
+.timer
+{
+	
+	position: relative;
+	margin-top: -40px;
+	margin-left: 700px;
+	margin-bottom: 100px;
+	width: 500px;
+	height: 110px;
+	text-align: center;
+	font: 17px "Verdana", cursive;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+	border-radius: 0 0 10px 10px;
+	
+
+}
+
+
+
+p#demo {
+  text-align: center;
+  font-size: 60px;
+}
+
+#logoMarcas
+{
+	
+	margin-left: 300px;
+	
+}
+
+.marca
+{
+	
+	width: 100px;
+	display: inline-block;
+	margin-left: 70px;
+	
+}
+
+.marca1 {margin-left: 0px !important;}
+
+#marcas
+{
+	
+	margin-top: 100px;
+	margin-left: 190px;
+	margin-bottom: 50px;
+	height: 200px;
+	width: 1500px;
+	text-align: center;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-radius: 10px 10px 0 0;
+	
+}
+
+.escolha
+{
+	
+	font: 30px "verdana", cursive;
+	text-decoration: bold;
+	color: black;
+	width: 400px;
+	text-align: center;
+	margin-bottom: 50px;
+	margin-left: 570px;
+	background-color: #dcdcdc;
+	border-bottom: 2px solid black; 
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-radius: 0 0 10px 10px;
+	
+}
+
+#rodape
+{
+	
+	width: 100%;
+	height: 300px;
+	background-color: #dcdcdc;
+	padding: 20px 0px;
+}
+
+.texto
+{
+	
+	font: 12px "verdana", cursive;
+	color: black;
+	display: inline-block;
+	margin-left: 50px;	
+}
+
+#info
+{
+	
+	margin-left: 430px;
+	
+}
+
+.ref{text-decoration: none; color: black;}
+.ref:hover{text-decoration: underline !important;}
+
+#bandeiras
+{
+	
+	margin-left: 50px;
+	margin-top: 10px;
+	
+}
+
+.bandeira
+{
+	
+	width: 50px;
+	margin-left: 30px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+.titulo {
+	font:68px "verdana", cursive;
+	color: #3b5998;
+	padding-left:20px;
+	padding-bottom:20px;
+	font-weight: bold;
+}
+
+.categoria {
+	font:34px "verdana", cursive;
+	color:#3b5998;
+	padding-left:20px;
+	padding-bottom:20px;
+	padding-top: 1px;
+	font-weight: bold;
+}
+
+.tabela {
+	background-color:#fff;
+	height: 480px;
+	width: 1830px;
+	margin-top: 20px;
+	margin-left: 20px;
+	position: relative;
+	margin-bottom: 20px
+}
+
+div.galeria {
+    margin: 2px;
+    float: left;
+    width: 250px;
+    margin-left: 103px;
+    margin-top: 15px;
+}
+
+div.galeria img {
+    width: 250px;
+    height: 250px;
+}
+
+.galeria img:hover{
+transform: scale(1.1);
+}
+
+div.descricao {
+
+  font: 20px "verdana",cursive;
+    text-align: center;
+  position: relative;
+  height: 130px;
+  line-height: 1.7;
+
+}
+
+.valor {
+	Font: 25px "verdana";
+	font-weight: bold;
+	text-align: justify-all;
+	line-height: 30px;
+}
+#shorts {
+	margin-top: 30px;
+}
+
+
+#bones {
+	margin-top: 30px;
+}
+
+#acessorios{
+	margin-top: 30px;
+
+}
+
+.compre
+{
+	
+	font: 12px "verdana", cursive;
+	text-align: center;
+	color: white;
+	background-color: #3b5998;
+	border-radius: 5px;
+	border: 2px solid white;
+	padding: 5px;
+	cursor: pointer;
+	margin-left: 50px;
+	margin-top: 12px;
+	height: 30px;
+
+	
+}
+
+.compre:hover{background-color: #1a3369;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
